@@ -1,0 +1,17 @@
+{
+  "cardData": {
+    "dataID": 4,
+    "cardAttributes": [
+      {
+        "name": "Damage",
+        "value": 3
+      }
+    ],
+    "fileName": "4_Fireball.json",
+    "cardName": "Fireball",
+    "rulesText": "Deal 3 damage.",
+    "hasTargets": false,
+    "cardScriptName": "Script_Fireball",
+    "channelCost": 4
+  }
+}

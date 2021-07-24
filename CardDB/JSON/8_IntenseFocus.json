@@ -1,0 +1,12 @@
+{
+  "cardData": {
+    "dataID": 8,
+    "cardAttributes": [],
+    "fileName": "8_IntenseFocus.json",
+    "cardName": "Intense Focus",
+    "rulesText": "Double all damage for the rest of the turn.",
+    "hasTargets": false,
+    "cardScriptName": "Script_IntenseFocus",
+    "channelCost": 6
+  }
+}

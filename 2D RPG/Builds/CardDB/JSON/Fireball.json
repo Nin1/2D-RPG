@@ -1,0 +1,15 @@
+{"CardData":
+{
+  "fileName": "Fireball",
+  "cardName": "Fireball",
+  "rulesText": "Deal 3 damage.",
+  "hasTargets": "false",
+  "cardScriptName": "Script_Fireball",
+  "channelCost": 4,
+  "cardAttributes": [
+	{	"name": "Damage",
+		"value": 3
+	}
+  ]
+}
+}

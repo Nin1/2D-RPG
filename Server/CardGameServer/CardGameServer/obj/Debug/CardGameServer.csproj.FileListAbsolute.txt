@@ -1,0 +1,9 @@
+D:\Projects\Unity\2D RPG\Server\CardGameServer\CardGameServer\bin\Debug\CardGameServer.exe.config
+D:\Projects\Unity\2D RPG\Server\CardGameServer\CardGameServer\bin\Debug\CardGameServer.exe
+D:\Projects\Unity\2D RPG\Server\CardGameServer\CardGameServer\bin\Debug\CardGameServer.pdb
+D:\Projects\Unity\2D RPG\Server\CardGameServer\CardGameServer\obj\Debug\CardGameServer.csprojResolveAssemblyReference.cache
+D:\Projects\Unity\2D RPG\Server\CardGameServer\CardGameServer\obj\Debug\CardGameServer.csproj.CoreCompileInputs.cache
+D:\Projects\Unity\2D RPG\Server\CardGameServer\CardGameServer\obj\Debug\CardGameServer.exe
+D:\Projects\Unity\2D RPG\Server\CardGameServer\CardGameServer\obj\Debug\CardGameServer.pdb
+D:\Projects\Unity\2D RPG\Server\CardGameServer\CardGameServer\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Unity\2D RPG\Server\CardGameServer\CardGameServer\bin\Debug\Newtonsoft.Json.xml

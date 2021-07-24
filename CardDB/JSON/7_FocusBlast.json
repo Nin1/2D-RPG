@@ -1,0 +1,12 @@
+{
+  "cardData": {
+    "dataID": 7,
+    "cardAttributes": [],
+    "fileName": "7_FocusBlast.json",
+    "cardName": "Focus Blast",
+    "rulesText": "Deal damage equal to the number of spells you control.",
+    "hasTargets": false,
+    "cardScriptName": "Script_FocusBlast",
+    "channelCost": 5
+  }
+}

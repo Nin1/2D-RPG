@@ -1,0 +1,37 @@
+=================
+=== CGCommand ===
+=================
+
+Client Game Command
+
+Abstract class that is the base of all requests from the server to the client.
+When received, the client will add the command to a queue (CGCommandRunner), and execute them in order
+
+Abstract functions:
+- PackCommand(): Pack the command into a bitstream
+- UnpackCommand(): Unpack a bitstream to initialise this command
+- ExecuteCommand(): CLIENT-ONLY: The script that executes the command
+
+Creating a new CGCommand:
+1. Create a new script named CGC_{CommandName}
+2. Add a new entry to the CGCommandID enum named COMMAND_NAME
+3. Give it a constructor with whatever initialiser you like
+4. Give it a constructor that takes a BitStream and calls UnpackCommand()
+5. Override PackCommand() to create a BitStream that contains all variables in the command
+	a. The first thing to write to the BitStream is (ushort)CGCommandID.COMMAND_NAME (16 bits)
+6. Override UnpackCommand() to initialise the command's variables from a bitstream
+	a. The CGCommandID does not need to be read, as it is already read by CGCommand.CreateCommandFromPacket()
+7. Within an '#if CLIENT' block, override ExecuteCommand() 
+	a. At the end of the command, you must call FinishCommand()
+	b. If using a sequence, use .AppendCallback(FinishCommand)
+	c. CGCommand has access to CGVisualManager for accessing zones and cards
+8. Add this command to CGCommand.CreateCommandFromPacket()
+
+=======================
+=== CGCommandRunner ===
+=======================
+
+A queue of CGCommands that executes each one one-by-one in first-in-first-out order
+
+Add commands to it using AddToQueue()
+The queue is kept running through Update(), which must be called by something every frame

@@ -1,0 +1,12 @@
+{
+  "cardData": {
+    "dataID": 10,
+    "cardAttributes": [],
+    "fileName": "10_Quicken.json",
+    "cardName": "Quicken",
+    "rulesText": "Reduce the time remaining on target spell by 1.",
+    "hasTargets": true,
+    "cardScriptName": "Script_Quicken",
+    "channelCost": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "cardData": {
+    "dataID": 5,
+    "cardAttributes": [
+      {
+        "name": "Damage",
+        "value": 8
+      }
+    ],
+    "fileName": "5_FireBlast.json",
+    "cardName": "Fire Blast",
+    "rulesText": "Deal 6 damage to each player",
+    "hasTargets": false,
+    "cardScriptName": "Script_FireBlast",
+    "channelCost": 6
+  }
+}

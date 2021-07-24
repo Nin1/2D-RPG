@@ -1,0 +1,34 @@
+===============================
+=== ClientConnectionManager ===
+===============================
+
+Singleton run by the client to connect to the server
+
+SetNewIP() and SetNewPort() can be used by Unity Input Fields to choose an IP and port to connect to
+ConnectButton() attempts to connect to the given IP at the given port, and loads the CardGame scene if it connects
+
+ReceiveCommand() attempts to read the NetworkStream connected to the server
+	- It first reads the first 4 bytes to determine the size of the incoming packet
+	- It then reads the rest of the packet
+	- If data was read, it attempts to create a CGCommand and add it to the CGCommandRunner
+	
+ClientConnectionManager.instance.TransmitStream() sends a bitstream to the server
+	- It pads 1 bit onto the end of the bitstream as a buffer
+	- Then it sends the length of the bitstream in bytes
+	- It then sends the bitstream
+	
+===============================
+=== ServerConnectionManager ===
+===============================
+
+Singleton run by the server to connect to two clients
+
+InitializeServer() initialises the server using the given IPAddress and port
+ConnectToClient() waits for a connection and saves it as either client 0 or client 1
+
+ServerConnectionManager.instance.TransmitStream() sends a bitstream to the given client (0 or 1)
+	- Works similarly to ClientConnectionManager.TransmitStream()
+	
+ReceiveStream(int player) attempts to read the NetworkStream connected to the given client
+	- Works similarly to ClientConnectionManager.ReceiveCommand()
+	- Creates and returns a SGCommand

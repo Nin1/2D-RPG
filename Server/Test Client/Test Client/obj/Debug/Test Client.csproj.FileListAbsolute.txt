@@ -1,0 +1,6 @@
+D:\Projects\Unity\2D RPG\Server\Test Client\Test Client\bin\Debug\Test Client.exe.config
+D:\Projects\Unity\2D RPG\Server\Test Client\Test Client\bin\Debug\Test Client.exe
+D:\Projects\Unity\2D RPG\Server\Test Client\Test Client\bin\Debug\Test Client.pdb
+D:\Projects\Unity\2D RPG\Server\Test Client\Test Client\obj\Debug\Test Client.csproj.CoreCompileInputs.cache
+D:\Projects\Unity\2D RPG\Server\Test Client\Test Client\obj\Debug\Test Client.exe
+D:\Projects\Unity\2D RPG\Server\Test Client\Test Client\obj\Debug\Test Client.pdb

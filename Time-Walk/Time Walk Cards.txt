@@ -1,0 +1,191 @@
+﻿Mechanics:
+•	Damage
+•	Counterspells
+•	Draw
+•	Defensive (Uncounterable stacks)
+•	Life
+•	Spell tokens (“Token” spells added to stacks)
+•	“Spell slot matters”-type
+•	Steal spells (from opponent’s stacks)
+•	Spells that boost other spells
+•	Spells that effect channel times
+•	Spells with effects during channeling
+
+Begin with 20 life
+
+Turn structure
+1. "Beginning of turn" triggers
+2. Move each channeling spell up 1 stack
+3. Resolve any spells that have been cast
+4. Tick Recharge counter down 1 and end turn
+OR
+4. Draw a card
+5. Play a card
+6. "End of turn" triggers
+
+C# = Channel for # turns
+R# = Recharge for # turns
+Focus = Focus effects apply only while being channeled.
+
+When you cast a spell with RX, move your "Recharge" counter UP to X.
+As long as your recharge counter is greater than 0, you cannot play cards.
+
+Firebolt – C2
+Deal 2 damage to target player.
+
+Fireball – C4 R1
+Deal 4 damage to target player.
+
+Counterspell - R4
+Counter target spell.
+
+Intense Thought - C3
+Draw 2 cards.
+
+Crumple - C8
+Counter every spell in target stack.
+
+Quicken - C1 R1
+Reduce the channel of target spell by 2.
+
+Slug - C1 R1
+Increase the channel of target spell by 2.
+
+Mental Barrier - C7
+Focus - Spells in the same stack as Mental Barrier cannot be countered.
+
+Blessing of Vigour - R1
+You gain 5 life.
+
+Mirror Force - C1 R4
+Whenever a source would deal damage to you before your next turn, that damage is instead dealt to that source's controller.
+
+Blobify - C5
+Counter target spell.
+
+Intense Focus - C2
+Focus - Spells you control deal double damage.
+
+Meditate - R2
+Discard your hand and draw 3 cards.
+
+Fire Blast - C4 R1
+Deal 5 damage to each player.
+
+Poison - C5 R5
+When you begin channeling Poison, choose a player.
+Focus - At the beginning of your turn, deal 2 damage to the chosen player.
+
+Vas - C9
+Deal 3 damage to each opponent.
+If Vas is cast in the same turn as a spell called "Kal" and a spell called "Corp", deal 30 damage to each opponent.
+
+Kal - C6
+Deal 2 damage to each opponent.
+If Kal is cast in the same turn as a spell called "Corp" and a spell called "Vas", deal 20 damage to each opponent.
+
+Corp - C3
+Deal 1 damage to each opponent.
+If Corp is cast in the same turn as a spell called "Vas" and a spell called "Kal", deal 10 damage to each opponent.
+
+Brainstorm - R1
+Deal damage to target player equal to the number of spells cast this turn (including Brainstorm).
+
+Discombobulate - C4
+Deal damage to target player equal to twice the number of spells cast this turn (including Discombobulate).
+
+Essence Drain - C5 R3
+When you begin channeling Essence Drain, choose a player.
+Focus - At the beginning of your turn, deal 1 damage to the chosen player and you gain 1 life.
+
+Mind Control - C5
+Gain control of target spell.
+
+Distraction - R3
+Counter target spell with Channel cost 3 or less.
+
+Dud - C3
+Counter target spell at Channel 1.
+
+Hidden Intentions - C7
+Cast a spell in your hand.
+
+Burst of Intelligence - C2 R4
+Decrease the Channel of all spells you control by 2.
+
+Stagger - C2 R4
+Increase the Channel of all spells target player controls by 2.
+
+Harmonious Blessing - C3
+You gain 1 life for each spell you control.
+
+Harmonious Blast - C6
+Deal damage to target opponent equal to the number of spells you control.
+
+Misfire - C2 R5
+Counter target spell at Channel 1. Deal damage to its controller equal to its Combined Time Cost.
+
+Parry - C2 RX
+When Parry is cast, choose a value for X.
+Counter target spell with Channel cost X.
+
+Mind Crush - C8
+Target player discards their hand.
+
+Inspiration - R3
+Draw 3 cards.
+
+Absorption - C5
+Focus - Whenever a spell is cast, gain 1 life.
+
+Zap - C0
+Deal 1 damage to target opponent.
+You may play an additional spell this turn.
+
+Thought Crumple - R2
+Target opponent reveals their hand. You choose a card from it. That player discards that card.
+
+Mystical Manipulation - C1 R3
+Move target spell to Channel 3.
+
+Silence - R5
+Counter all spells.
+
+Bind - C3
+Target opponent gets Recharge 2.
+
+Replicate - C5
+Copy target spell being cast this turn. You may choose new targets for the copy.
+
+Genius Accelleration - C5 R5
+Focus - At the beginning of your turn, draw an additional card.
+
+Splitting Spell - C5
+Deal 1 damage to target player.
+When this spell is cast, begin channeling two copies of it.
+
+(42) 
+
+Decay - C3 R3
+Focus - At the beginning of your turn, target player discards a card.
+
+Blur - C1 R1
+Counter target spell with Focus.
+
+Lethal Curse - C10
+Deal 13 damage to target player. If that player does not lose the game, you lose the game.
+
+Wall of Slime - C1 R1
+Prevent all damage that would be dealt to you until your next turn.
+
+Slow Burn - C3 R3
+Focus - At the beginning of your turn, deal damage to target opponent equal to the current Channel of Slow Burn.
+
+Deep in Thought - C5
+Search your deck for a card and put it in your hand.
+
+Lost Memory - C3
+Return target spell from your discard pile to your hand.
+
+Second Attempt - C2 R1
+Move target spell to the Channel zone equal to its Channel cost.

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{493BC4B5-D856-436D-8183-1B5A5CC5B650}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CardGameServer</RootNamespace>
+    <AssemblyName>CardGameServer</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SERVER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\2D RPG\Assets\Resources\CardDB\Scripts\Script_BlessingOfVigour.cs">
+      <Link>CardScripts\Script_BlessingOfVigour.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Resources\CardDB\Scripts\Script_Brainstorm.cs">
+      <Link>CardScripts\Script_Brainstorm.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Resources\CardDB\Scripts\Script_Counterspell.cs">
+      <Link>CardScripts\Script_Counterspell.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Resources\CardDB\Scripts\Script_Delay.cs">
+      <Link>CardScripts\Script_Delay.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Resources\CardDB\Scripts\Script_Fireball.cs">
+      <Link>CardScripts\Script_Fireball.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Resources\CardDB\Scripts\Script_FireBlast.cs">
+      <Link>CardScripts\Script_FireBlast.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Resources\CardDB\Scripts\Script_Firebolt.cs">
+      <Link>CardScripts\Script_Firebolt.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Resources\CardDB\Scripts\Script_FocusBlast.cs">
+      <Link>CardScripts\Script_FocusBlast.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Resources\CardDB\Scripts\Script_IntenseFocus.cs">
+      <Link>CardScripts\Script_IntenseFocus.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Resources\CardDB\Scripts\Script_MindControl.cs">
+      <Link>CardScripts\Script_MindControl.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Resources\CardDB\Scripts\Script_Quicken.cs">
+      <Link>CardScripts\Script_Quicken.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Resources\CardDB\Scripts\Script_Rewind.cs">
+      <Link>CardScripts\Script_Rewind.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\3rdPartyLibs\BitStream\BitStream.cs">
+      <Link>BitStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Commands\CGCommand.cs">
+      <Link>Commands\CGCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Commands\CGC_CastSpell.cs">
+      <Link>Commands\CGC_CastSpell.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Commands\CGC_ChannelSpell.cs">
+      <Link>Commands\CGC_ChannelSpell.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Commands\CGC_MoveCardToGraveyard.cs">
+      <Link>Commands\CGC_MoveCardToGraveyard.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Commands\CGC_OpponentDrawCard.cs">
+      <Link>Commands\CGC_OpponentDrawCard.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Commands\CGC_OpponentPlayCardFromHand.cs">
+      <Link>Commands\CGC_OpponentPlayCardFromHand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Commands\CGC_PhaseTransition.cs">
+      <Link>Commands\CGC_PhaseTransition.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Commands\CGC_PlayerDrawCard.cs">
+      <Link>Commands\CGC_PlayerDrawCard.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Commands\CGC_PlayerPlayCardFromHand.cs">
+      <Link>Commands\CGC_PlayerPlayCardFromHand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Commands\CGC_SetLife.cs">
+      <Link>Commands\CGC_SetLife.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Commands\CGC_SetPlayerID.cs">
+      <Link>Commands\CGC_SetPlayerID.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Commands\CGC_WaitForCastSelection.cs">
+      <Link>Commands\CGC_WaitForCastSelection.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Commands\CGC_WaitForPlayFromHand.cs">
+      <Link>Commands\CGC_WaitForPlayFromHand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Logic\CardAttribute.cs">
+      <Link>CardAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Logic\CardData.cs">
+      <Link>CardData.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Logic\CardGameManager.cs">
+      <Link>CardGameManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Logic\CardGameTriggerManager.cs">
+      <Link>CardGameTriggerManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Logic\CardScript.cs">
+      <Link>CardScript.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Logic\CardType.cs">
+      <Link>CardType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Logic\CGCardObject.cs">
+      <Link>CGCardObject.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Logic\CGDeckLogicZone.cs">
+      <Link>CGDeckLogicZone.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Logic\CGGraveyardLogicZone.cs">
+      <Link>CGGraveyardLogicZone.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Logic\CGHandLogicZone.cs">
+      <Link>CGHandLogicZone.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Logic\CGLogicZone.cs">
+      <Link>CGLogicZone.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Logic\CGPlayerLogic.cs">
+      <Link>CGPlayerLogic.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Logic\CGSpellLogicZone.cs">
+      <Link>CGSpellLogicZone.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Logic\CGSpellObject.cs">
+      <Link>CGSpellObject.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Server Commands\SGCommand.cs">
+      <Link>ServerCommands\SGCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Server Commands\SGC_CastSpellFromChannel0.cs">
+      <Link>ServerCommands\SGC_CastSpellFromChannel0.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\Server Commands\SGC_PlayCardFromHand.cs">
+      <Link>ServerCommands\SGC_PlayCardFromHand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\2D RPG\Assets\Script\CardGame\ServerConnectionManager.cs">
+      <Link>ServerConnectionManager.cs</Link>
+    </Compile>
+    <Compile Include="Debug.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,15 @@
+{"CardData":
+{
+  "fileName": "FireBlast",
+  "cardName": "Fire Blast",
+  "rulesText": "Deal 6 damage to each player",
+  "hasTargets": "false",
+  "cardScriptName": "Script_Fireball",
+  "channelCost": 6,
+  "cardAttributes": [
+	{	"name": "Damage",
+		"value": 8
+	}
+  ]
+}
+}

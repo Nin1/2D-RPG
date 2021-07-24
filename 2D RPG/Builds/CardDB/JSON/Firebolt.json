@@ -1,0 +1,15 @@
+{"CardData":
+{
+  "fileName": "Firebolt",
+  "cardName": "Firebolt",
+  "rulesText": "Deal 2 damage.",
+  "hasTargets": "false",
+  "cardScriptName": "Script_Firebolt",
+  "channelCost": 2,
+  "cardAttributes": [
+	{	"name": "Damage",
+		"value": 2
+	}
+  ]
+}
+}

@@ -1,0 +1,15 @@
+{"CardData":
+{
+  "fileName": "BlessingOfVigour",
+  "cardName": "Blessing Of Vigour",
+  "rulesText": "Heal 5 life",
+  "hasTargets": "false",
+  "cardScriptName": "Script_BlessingOfVigour",
+  "channelCost": 2,
+  "cardAttributes": [
+	{	"name": "Lifegain",
+		"value": 5
+	}
+  ]
+}
+}

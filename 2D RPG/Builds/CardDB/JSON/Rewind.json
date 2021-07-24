@@ -1,0 +1,12 @@
+{"CardData":
+{
+  "fileName": "Rewind",
+  "cardName": "Rewind",
+  "rulesText": "Set the time remaining on target spell equal to its channel cost.",
+  "hasTargets": "true",
+  "cardScriptName": "Script_Rewind",
+  "channelCost": 4,
+  "cardAttributes": [
+  ]
+}
+}

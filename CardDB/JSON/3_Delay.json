@@ -1,0 +1,12 @@
+{
+  "cardData": {
+    "dataID": 3,
+    "cardAttributes": [],
+    "fileName": "3_Delay.json",
+    "cardName": "Delay",
+    "rulesText": "Increase the time remaining on target spell by 1.",
+    "hasTargets": true,
+    "cardScriptName": "Script_Delay",
+    "channelCost": 1
+  }
+}

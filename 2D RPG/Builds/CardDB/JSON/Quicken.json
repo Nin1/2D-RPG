@@ -1,0 +1,12 @@
+{"CardData":
+{
+  "fileName": "Quicken",
+  "cardName": "Quicken",
+  "rulesText": "Reduce the time remaining on target spell by 1.",
+  "hasTargets": "true",
+  "cardScriptName": "Script_Quicken",
+  "channelCost": 2,
+  "cardAttributes": [
+  ]
+}
+}

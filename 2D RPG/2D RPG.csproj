@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C14867E1-E221-A8C9-E6E9-2A29C427FBE2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.6.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CLIENT</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CLIENT</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/3rd Party Tools/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets/3rd Party Tools/DOTween/DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>Assets/3rd Party Tools/DOTween/DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>Assets/3rd Party Tools/DOTween/DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\CardDataPath.cs" />
+    <Compile Include="Assets\DB_Decklist.cs" />
+    <Compile Include="Assets\DeckDataPath.cs" />
+    <Compile Include="Assets\DecklistEntry.cs" />
+    <Compile Include="Assets\Resources\CardDB\Scripts\Script_BlessingOfVigour.cs" />
+    <Compile Include="Assets\Resources\CardDB\Scripts\Script_Brainstorm.cs" />
+    <Compile Include="Assets\Resources\CardDB\Scripts\Script_Counterspell.cs" />
+    <Compile Include="Assets\Resources\CardDB\Scripts\Script_Delay.cs" />
+    <Compile Include="Assets\Resources\CardDB\Scripts\Script_FireBlast.cs" />
+    <Compile Include="Assets\Resources\CardDB\Scripts\Script_Fireball.cs" />
+    <Compile Include="Assets\Resources\CardDB\Scripts\Script_Firebolt.cs" />
+    <Compile Include="Assets\Resources\CardDB\Scripts\Script_FocusBlast.cs" />
+    <Compile Include="Assets\Resources\CardDB\Scripts\Script_IntenseFocus.cs" />
+    <Compile Include="Assets\Resources\CardDB\Scripts\Script_MindControl.cs" />
+    <Compile Include="Assets\Resources\CardDB\Scripts\Script_Quicken.cs" />
+    <Compile Include="Assets\Resources\CardDB\Scripts\Script_Rewind.cs" />
+    <Compile Include="Assets\Script\3rdPartyLibs\BitStream\BitStream.cs" />
+    <Compile Include="Assets\Script\Camera\CameraController.cs" />
+    <Compile Include="Assets\Script\Card\Visual\BetterCardRotation.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGC_CastSpell.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGC_ChannelSpell.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGC_MoveCardToGraveyard.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGC_OpponentDrawCard.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGC_OpponentPlayCardFromHand.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGC_PhaseTransition.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGC_PlayerDrawCard.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGC_PlayerPlayCardFromHand.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGC_RefreshTimeout.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGC_RequestDeck.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGC_SetLife.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGC_SetPlayerID.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGC_WaitForCastSelection.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGC_WaitForPlayFromHand.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGCommand.cs" />
+    <Compile Include="Assets\Script\CardGame\Commands\CGCommandRunner.cs" />
+    <Compile Include="Assets\Script\CardGame\Logic\AiPlayer.cs" />
+    <Compile Include="Assets\Script\CardGame\Logic\CGPlayerLogic.cs" />
+    <Compile Include="Assets\Script\CardGame\Logic\CardAttribute.cs" />
+    <Compile Include="Assets\Script\CardGame\Logic\CardData.cs" />
+    <Compile Include="Assets\Script\CardGame\Logic\CardGameManager.cs" />
+    <Compile Include="Assets\Script\CardGame\Logic\CardGameTriggerManager.cs" />
+    <Compile Include="Assets\Script\CardGame\Logic\CardScript.cs" />
+    <Compile Include="Assets\Script\CardGame\Logic\CardType.cs" />
+    <Compile Include="Assets\Script\CardGame\Logic\PackedDeck.cs" />
+    <Compile Include="Assets\Script\CardGame\Logic\RenamedScript.cs" />
+    <Compile Include="Assets\Script\CardGame\Logic\Zones\CGDeckLogicZone.cs" />
+    <Compile Include="Assets\Script\CardGame\Logic\Zones\CGGraveyardLogicZone.cs" />
+    <Compile Include="Assets\Script\CardGame\Logic\Zones\CGHandLogicZone.cs" />
+    <Compile Include="Assets\Script\CardGame\Logic\Zones\CGLogicZone.cs" />
+    <Compile Include="Assets\Script\CardGame\Logic\Zones\CGSpellLogicZone.cs" />
+    <Compile Include="Assets\Script\CardGame\Networking\CardGameServer.cs" />
+    <Compile Include="Assets\Script\CardGame\Networking\ClientConnectionInterface.cs" />
+    <Compile Include="Assets\Script\CardGame\Networking\ClientConnectionManager.cs" />
+    <Compile Include="Assets\Script\CardGame\Networking\LocalServerRunner.cs" />
+    <Compile Include="Assets\Script\CardGame\Networking\ServerConnectionManager.cs" />
+    <Compile Include="Assets\Script\CardGame\Server Commands\SGC_CastSpellFromChannel0.cs" />
+    <Compile Include="Assets\Script\CardGame\Server Commands\SGC_PlayCardFromHand.cs" />
+    <Compile Include="Assets\Script\CardGame\Server Commands\SGC_RefreshTimeout.cs" />
+    <Compile Include="Assets\Script\CardGame\Server Commands\SGC_SendDeck.cs" />
+    <Compile Include="Assets\Script\CardGame\Server Commands\SGCommand.cs" />
+    <Compile Include="Assets\Script\CardGame\Visual\CGLifeVisual.cs" />
+    <Compile Include="Assets\Script\CardGame\Visual\CGVisualManager.cs" />
+    <Compile Include="Assets\Script\CardGame\Visual\CardVisual.cs" />
+    <Compile Include="Assets\Script\CardGame\Visual\Zones\CGBasicZone.cs" />
+    <Compile Include="Assets\Script\CardGame\Visual\Zones\CGChannelZone.cs" />
+    <Compile Include="Assets\Script\CardGame\Visual\Zones\CGDeckZone.cs" />
+    <Compile Include="Assets\Script\CardGame\Visual\Zones\CGHandZone.cs" />
+    <Compile Include="Assets\Script\CardGame\Visual\Zones\CGSelectionZone.cs" />
+    <Compile Include="Assets\Script\CardGame\Visual\Zones\CGZone.cs" />
+    <Compile Include="Assets\Script\ChoiceList.cs" />
+    <Compile Include="Assets\Script\Entity\Frog.cs" />
+    <Compile Include="Assets\Script\EventManager.cs" />
+    <Compile Include="Assets\Script\Managers\CutsceneRunner.cs" />
+    <Compile Include="Assets\Script\Managers\InputManager.cs" />
+    <Compile Include="Assets\Script\Managers\VarManager.cs" />
+    <Compile Include="Assets\Script\Player\PlayerAnimController.cs" />
+    <Compile Include="Assets\Script\Player\PlayerController.cs" />
+    <Compile Include="Assets\Script\Shared\IInteractible.cs" />
+    <Compile Include="Assets\Script\Shared\ZOrder.cs" />
+    <Compile Include="Assets\Script\Test.cs" />
+    <Compile Include="Assets\Script\UI\DialogueBox.cs" />
+    <Compile Include="Assets\UI_ChannelCost.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\3rd Party Tools\DOTween\DOTween.XML" />
+    <None Include="Assets\3rd Party Tools\DOTween\DOTween43.xml" />
+    <None Include="Assets\3rd Party Tools\DOTween\DOTween46.xml" />
+    <None Include="Assets\3rd Party Tools\DOTween\DOTween50.xml" />
+    <None Include="Assets\3rd Party Tools\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\3rd Party Tools\DOTween\readme.txt" />
+    <None Include="Assets\JsonDotNet\Assemblies\AOT\Newtonsoft.Json.XML" />
+    <None Include="Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.XML" />
+    <None Include="Assets\JsonDotNet\Assemblies\Windows\Newtonsoft.Json.XML" />
+    <None Include="Assets\JsonDotNet\link.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

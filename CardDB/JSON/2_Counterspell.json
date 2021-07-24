@@ -1,0 +1,12 @@
+{
+  "cardData": {
+    "dataID": 2,
+    "cardAttributes": [],
+    "fileName": "2_Counterspell.json",
+    "cardName": "Counterspell",
+    "rulesText": "Counter target spell.",
+    "hasTargets": true,
+    "cardScriptName": "Script_Counterspell",
+    "channelCost": 5
+  }
+}

@@ -1,0 +1,12 @@
+{"CardData":
+{
+  "fileName": "MindControl",
+  "cardName": "Mind Control",
+  "rulesText": "Take control of target spell.",
+  "hasTargets": "true",
+  "cardScriptName": "Script_MindControl",
+  "channelCost": 7,
+  "cardAttributes": [
+  ]
+}
+}

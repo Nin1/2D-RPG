@@ -1,0 +1,12 @@
+{"CardData":
+{
+  "fileName": "Delay",
+  "cardName": "Delay",
+  "rulesText": "Increase the time remaining on target spell by 1.",
+  "hasTargets": "true",
+  "cardScriptName": "Script_Delay",
+  "channelCost": 2,
+  "cardAttributes": [
+  ]
+}
+}

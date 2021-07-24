@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGameServer", "CardGameServer\CardGameServer.csproj", "{493BC4B5-D856-436D-8183-1B5A5CC5B650}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{493BC4B5-D856-436D-8183-1B5A5CC5B650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493BC4B5-D856-436D-8183-1B5A5CC5B650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493BC4B5-D856-436D-8183-1B5A5CC5B650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493BC4B5-D856-436D-8183-1B5A5CC5B650}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC6BB202-5618-4EA4-BFA9-DF0B5DF2F00E}
+	EndGlobalSection
+EndGlobal

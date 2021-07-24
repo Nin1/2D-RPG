@@ -1,0 +1,12 @@
+{"CardData":
+{
+  "fileName": "Brainstorm",
+  "cardName": "Brainstorm",
+  "rulesText": "Deal damage equal to the number of spells cast this turn.",
+  "hasTargets": "false",
+  "cardScriptName": "Script_Brainstorm",
+  "channelCost": 3,
+  "cardAttributes": [
+  ]
+}
+}

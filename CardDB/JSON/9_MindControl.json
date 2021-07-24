@@ -1,0 +1,12 @@
+{
+  "cardData": {
+    "dataID": 9,
+    "cardAttributes": [],
+    "fileName": "9_MindControl.json",
+    "cardName": "Mind Control",
+    "rulesText": "Take control of target spell.",
+    "hasTargets": true,
+    "cardScriptName": "Script_MindControl",
+    "channelCost": 7
+  }
+}

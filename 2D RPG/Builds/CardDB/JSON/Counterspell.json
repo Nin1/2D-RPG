@@ -1,0 +1,12 @@
+{"CardData":
+{
+  "fileName": "Counterspell",
+  "cardName": "Counterspell",
+  "rulesText": "Counter target spell.",
+  "hasTargets": "true",
+  "cardScriptName": "Script_Counterspell",
+  "channelCost": 5,
+  "cardAttributes": [
+  ]
+}
+}
