@@ -1,8 +1,9 @@
 # "Time Walk"
-1v1 networked card game with a standalone C# server application and Unity client.
+1v1 networked card game with a standalone C# server application and Unity client. Functional and playable, but far from finished
 
 The rules of the game are:
 - Players start with 20 life
+- Players win when their opponent reaches 0 life
 - Players can play one card from their hand per turn
 - Cards are played on the player's timeline according to the card's 'time cost'
 - Each turn, the active player:
